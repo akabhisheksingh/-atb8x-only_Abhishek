@@ -1,4 +1,4 @@
-package multiThreadingTutorial;
+package LearningJava;
 
 public class FirstTaskOn13thSept {
 	public static void main(String[] args) {
