@@ -35,8 +35,9 @@ public class task18thSeptJava {
 		int a = 10;
 		System.out.println(--a + a-- + a--);
 		/*
-									 * a =10; pre decrement -- value of a becomes to 9+9 post decrement 9+9+8= 26
-									 */
+		 * 	a =10; pre decrement -- value of a becomes to 9+9 post decrement 9+9+8= 26
+		 */
+		
 		System.out.println(a);// 7
 
 		// ***********************************Question 3*****************
