@@ -23,23 +23,27 @@ public class CalculatorProgramQues1 {
 		switch (operation) {
 		case "+":
 			value = num1 + num2;
+			System.out.println("Result = " + value);
 			break;
 		case "-":
 			value = num1 - num2;
+			System.out.println("Result = " + value);
 			break;
 		case "*":
 			value = num1 * num2;
+			System.out.println("Result = " + value);
 			break;
 		case "/":
 			value = num1 / num2;
+			System.out.println("Result = " + value);
 			break;
 		case "%":
 			value = num1 % num2;
+			System.out.println("Result = " + value);
 			break;
 		default:
 			System.out.println("You can do only these operation +,-,*,/ or %.");
 		}
-		System.out.println("Result = " + value);
 
 	}
 
