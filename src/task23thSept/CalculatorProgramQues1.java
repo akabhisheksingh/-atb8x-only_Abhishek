@@ -8,7 +8,6 @@ public class CalculatorProgramQues1 {
 	 * Inputs :   num 1, num 2, +
 	 * Output :  num1+num2 → print information.
 	 */
-	
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the first number: ");
