@@ -6,9 +6,9 @@ public class MonthQuestion2 {
 	public static void main(String[] args) {
 		System.out.println("Enter the month value in numeric form");
 		Scanner sc = new Scanner(System.in);
-		int monthValue = sc.nextInt(); 
-		switch(monthValue) {
-		case 1: 
+		int monthValue = sc.nextInt();
+		switch (monthValue) {
+		case 1:
 			System.out.println("JAN");
 			break;
 		case 2:
@@ -16,13 +16,13 @@ public class MonthQuestion2 {
 			break;
 		case 3:
 			System.out.println("MAR");
-			break; 
+			break;
 		case 4:
 			System.out.println("APR");
 			break;
 		case 5:
 			System.out.println("MAY");
-			break;			
+			break;
 		case 6:
 			System.out.println("JUNE");
 			break;
@@ -43,9 +43,9 @@ public class MonthQuestion2 {
 			break;
 		case 12:
 			System.out.println("DEC");
-			break; 
-			default:
-				System.out.println("Please check your value: Month value from 1 to 12");
+			break;
+		default:
+			System.out.println("Please check your value: Month value from 1 to 12");
 		}
 		sc.close();
 	}
